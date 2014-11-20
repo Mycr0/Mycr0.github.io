@@ -32,6 +32,7 @@ ul.nav{
   color:#FFFAFA;
   font-weight: 500;
   font-size: 23px;
+  text-shadow: 2px 2px 0px #000;
 
 }
 
@@ -91,6 +92,13 @@ ul.nav{
 .zero{
 
 	text-align: left;
+	line-height: 250%;
+	font-size: 1.2em;
+}
+
+#margin{
+	text-align: left;
+	margin-left: 1.7em;
 }
 
 #servicii_top{
@@ -98,7 +106,7 @@ ul.nav{
 }
 
 footer{
-	background-color: #FFE4B5;
+	background-color: #f39c12;
 	padding-top: 150px;
 	padding-bottom: 60px;
 }
@@ -111,40 +119,3 @@ footer img{
 	margin-bottom: 7px;
 }
 
-/* Responsive Styling */
-@media (max-width: 1199px) {
-  .jumbotron h1 {
-    font-size: 56px;
-    padding: 30px;
-  }
-}
-@media (max-width: 991px) {
-  .jumbotron h1 {
-    font-size: 50px;
-  }
-  .jumbotron p {
-    padding: 0 10px;
-  }
-  #servicii_top .col-md-4 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .jumbotron h1 {
-    font-size: 24px;
-  }
-  .jumbotron p {
-    font-size: 16px;
-    padding: 0;
-  }
-  .btn-lg {
-    font-size: 18px;
-  }
-  .homepage p {
-    font-size: 18px;
-  }
-  footer img {
-    width: 80%;
-  }
-}
